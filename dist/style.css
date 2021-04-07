@@ -1,0 +1,55 @@
+
+.container {
+    height:500px;
+    width:350px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    background-color: white;
+}
+
+.main {
+    position: relative;
+    margin:15px;
+}
+
+img{
+    width:50%;
+    height:50%;
+    transform: translate(50%,0); 
+}
+
+.heading {
+    margin-top:20px;
+    text-align: center;
+}
+
+.label {
+    display:block;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+
+.enter {
+    display: block;
+    margin: 0 auto;
+    transform: scale(1.2);
+    margin-bottom: 10px;
+}
+
+.global {
+    padding:15px;
+}
+
+.btn {
+    transform: translate(90%,0);
+    margin-top: 10px;
+    width:35%;
+    padding: 15px 25px;
+    border-radius: 25px;
+    background-color: rgb(97, 209, 97);
+    box-shadow: 3px 3px 3px green;
+    color: white;
+    font-weight: 200;
+}

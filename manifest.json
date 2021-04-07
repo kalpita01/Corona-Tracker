@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "Covid19",
+    "version": "1.0",
+    "description": "Provides the cases details regarding Covid19 with respective to any Country",
+    "browser_action": {
+      "default_popup": "dist/index.html"
+    },
+    "content_security_policy":"script-src 'self' 'unsafe-eval' https://unpkg.com https://cdn.jsdelivr.net 'unsafe-inline'; object-src 'self'"
+}
